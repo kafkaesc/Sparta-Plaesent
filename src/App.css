@@ -1,38 +1,128 @@
-.App {
+body, html {
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  color: #000;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  body {
+    padding-top: 100px;
+  }
+}
+
+.sp-container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+/* _jhdb: bgs */
+.bg-1 {
+  background-color: #aaa;
+}
+
+.bg-2 {
+  background-color: #888;
+}
+
+.bg-3 {
+  background-color: #666;
+}
+
+.bg-4 {
+  background-color: #444;
+}
+
+/* Float Styles */
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}
+
+/* Flex boxesßß */
+.flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-ci {
+  margin-left: 30px;
+  margin-right: 30px;
+  width: calc(33% - 60px);
+  flex: 0 1 auto;
+}
+
+@media screen and (max-width: 480px) {
+  .flex-ci {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+  }
+}
+
+/* Display Styles */
+.d-block {
+  display: block;
+}
+
+.d-ib {
+  display: inline-block;
+}
+
+/* Text Styles */
+.txt-left {
+  text-align: left;
+}
+
+.txt-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.txt-right {
+  text-align: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Width Styles */
+.w16pc {
+  width: 16.66%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.w25pc {
+  width: 25%;
 }
 
-.App-link {
-  color: #61dafb;
+.w33pc {
+  width: 33.33%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.w50pc {
+  width: 50%;
+}
+
+.w66pc {
+  width: 66.66%;
+}
+
+.w75pc {
+  width: 75%;
+}
+
+.w83pc {
+  width: 83.33%;
+}
+
+.w100pc {
+  width: 100%;
 }

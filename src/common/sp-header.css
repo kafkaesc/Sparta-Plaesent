@@ -1,0 +1,53 @@
+.sp-header-wrapper {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+.sp-header-container {
+    height: 50px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+@media screen and (max-width: 480px) {
+    .sp-header-wrapper {
+        height: 50px;
+    }
+
+    .sp-header-container {
+        padding-top: 8px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .sp-header-wrapper {
+        height: 100px;
+    }
+
+    .sp-header-container {
+        padding-top: 32px;
+        height: 100px;
+    }
+}
+
+#SpLogo {
+    max-height: 50px;
+    max-width: 200px;
+}
+
+ul.sitenav {
+    max-height: 50px;
+}
+
+ul.sitenav > li {
+    color: #000;
+    display: inline-block;
+    list-style: none;
+    margin-left: 8px;
+    margin-right: 8px;
+}

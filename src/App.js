@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import axios from 'axios';
+
+import { useEffect, useState } from 'react';
+
 import './App.css';
+import HeroCarousel from './common/hero-carousel';
+import MasonryGrid from './common/masonry-grid';
+import SpHeader from './common/sp-header';
+import SpFooter from './common/sp-footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [data, setData] = useState(null);
+    useEffect(
+        () => {
+            axios.get('https://s0nshulo19.execute-api.us-east-1.amazonaws.com/default/code-challenge')
+            .then(
+                (res) => { setData(res); console.log("res", res); },
+                (err) => console.log("Error: ", err)
+            );
+        },
+        []
+    );
+
+    return (
+        <div className="App">
+            <SpHeader />
+            <HeroCarousel slides={data?.data?.hero_slides} />
+            <MasonryGrid items={data?.data?.cards} />
+            <SpFooter />
+        </div>
+    );
 }
 
 export default App;

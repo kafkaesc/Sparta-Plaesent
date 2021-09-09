@@ -1,0 +1,17 @@
+.footer-cr {
+    font-size: 0.80rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.footer-cr a {
+    text-transform: uppercase;
+}
+
+.sp-footer-wrapper button {
+    background-color: #000;
+    border: solid 1px #000;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
