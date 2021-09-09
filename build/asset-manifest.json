@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Sparta-Plaesent/static/css/main.84a737a7.chunk.css",
+    "main.js": "/Sparta-Plaesent/static/js/main.84a7d7cb.chunk.js",
+    "main.js.map": "/Sparta-Plaesent/static/js/main.84a7d7cb.chunk.js.map",
+    "runtime-main.js": "/Sparta-Plaesent/static/js/runtime-main.fcc27013.js",
+    "runtime-main.js.map": "/Sparta-Plaesent/static/js/runtime-main.fcc27013.js.map",
+    "static/js/2.3f55a076.chunk.js": "/Sparta-Plaesent/static/js/2.3f55a076.chunk.js",
+    "static/js/2.3f55a076.chunk.js.map": "/Sparta-Plaesent/static/js/2.3f55a076.chunk.js.map",
+    "static/js/3.36fd0c95.chunk.js": "/Sparta-Plaesent/static/js/3.36fd0c95.chunk.js",
+    "static/js/3.36fd0c95.chunk.js.map": "/Sparta-Plaesent/static/js/3.36fd0c95.chunk.js.map",
+    "index.html": "/Sparta-Plaesent/index.html",
+    "static/css/main.84a737a7.chunk.css.map": "/Sparta-Plaesent/static/css/main.84a737a7.chunk.css.map",
+    "static/js/2.3f55a076.chunk.js.LICENSE.txt": "/Sparta-Plaesent/static/js/2.3f55a076.chunk.js.LICENSE.txt",
+    "static/media/logo.4ac60799.svg": "/Sparta-Plaesent/static/media/logo.4ac60799.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcc27013.js",
+    "static/js/2.3f55a076.chunk.js",
+    "static/css/main.84a737a7.chunk.css",
+    "static/js/main.84a7d7cb.chunk.js"
+  ]
+}
